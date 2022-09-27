@@ -1,0 +1,9 @@
+Automobile
+
+Targa(PK)        VARCHAR(10) NOTNULL
+Marca	           VARCHAR(20) NOTNULL
+Modello          VARCHAR(20) NOTNULL
+Kilometri        INT DEFAULT (0)
+Prezzo           FLOAT(7,2) NOTNULL
+AnnoCostruzione  DATETIME 
+
